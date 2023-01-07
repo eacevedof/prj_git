@@ -1,11 +1,8 @@
 # prj_git
 Pruebas de git
 
-### stash
-- git stash
-  - deja unos cambios en stand-by 
-- git stash apply
-  - de la lista de cambios en stand-by recupera el último y lo aplica a la rama donde nos encontramos pero sin añadirlo al stage para un futuro commit 
+### PRUEBA `squash multiple commits in my-branch`
+
 
 ### PRUEBA `merge with squash`
 - de mi rama **main** cuyos ultimos commits son:
@@ -66,6 +63,14 @@ Date:   Sat Jan 7 13:52:41 2023 +0100
 ...
 ```
 - con esto conseguimos que nuestra rama principal solo tenga un commit relevante con los cambios del feature/bug finalizado
+
+
+### stash
+- git stash
+  - deja unos cambios en stand-by
+- git stash apply
+  - de la lista de cambios en stand-by recupera el último y lo aplica a la rama donde nos encontramos pero sin añadirlo al stage para un futuro commit
+
 
 ### pull request
 - git rebase --intaractive #hago un commit unito
