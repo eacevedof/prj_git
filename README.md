@@ -1,5 +1,5 @@
-# prj_git
-Pruebas de git
+# prj_git  (eduardoaf.com)
+## sandbox pruebas git
 
 ### PRUEBA `git reset $(git commit-tree HEAD^{tree} -m "nuevo commit fusionado dentro de rama")`
 - de esta form al fusionar los commits en la rama se pierde el historial de commits desde donde se sacó la copia. En este caso *main*
