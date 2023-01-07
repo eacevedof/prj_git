@@ -9,7 +9,7 @@ Pruebas de git
 
 ### PRUEBA `merge with squash`
 - de mi rama **main** cuyos ultimos commits son:
-```
+```git
 commit 1b57343726b80b60db15082c79c317ed52ef6094 (HEAD -> main, origin/main, origin/HEAD)
 Author: eaf@pc <eaf@eaf.com>
 Date:   Sat Jan 7 13:52:41 2023 +0100
