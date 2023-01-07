@@ -1,2 +1,4 @@
 <?php
-echo "";
+echo "x";
+echo "y";
+echo "z";
