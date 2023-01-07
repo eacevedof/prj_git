@@ -1,8 +1,18 @@
 # prj_git
 Pruebas de git
 
-### PRUEBA `squash multiple commits in my-branch`
+### PRUEBA `git reset $(git commit-tree HEAD^{tree} -m "nuevo commit fusionado dentro de rama")`
+- de esta form al fusionar los commits en la rama se pierde el historial de commits desde donde se sacó la copia. En este caso *main*
+en otras palabras **main** deja de ser la **base** de **my-branch**
+- habria que hacer un rebase de **my-branch** contra **main** `git rebase -i main` de lo contrario indicará `fatal: refusing to merge unrelated histories`
+si se desea integrar con **main**
 
+### PRUEBA `rebase and squash multiple commits in my-branch`
+- dentro de **my-branch**
+- `git rebase -i main`
+- corregimos conflictos
+- marcamos los commits con `squash`
+- hacemos `git push --force-with-lease`
 
 ### PRUEBA `merge with squash`
 - de mi rama **main** cuyos ultimos commits son:
